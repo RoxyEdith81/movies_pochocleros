@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> registrarse CACFLIX - Catalogo de peliculas</title>
+    <!--el icono que representa al sitio web y se ve en la pestaña-->
+    <link rel="shortcut icon" href="../assets/img/favicon.ico.png" type="image/x-icon">
+    <!--libreria de imagenes de Fontawesome-->
+    <script src="https://kit.fontawesome.com/1c723296c6.js" crossorigin="anonymous"></script>
+    <!--link externo de estilos de css-->
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="/js/app01.js" defer></script>
+
+</head>
+<body>
+    <header>
+
+        <nav>
+            <a href="../index.html">
+                <img src="../assets/img/imagen Logo Fullstck java.jpg" alt="Logo de CACFLIX" width="100" loading="lazy">
+                
+                <!--etiqueta abierta multimedia, imagen-->
+            </a>
+            <!--Lista desordenada ul / Lista ordenada al-->
+            <ul>
+                <li>
+                    <!--lo hacemos luego cuando este el main-->
+                    <a href="../index.html">Principal</a>
+                 </li>
+                <li>
+                    <a href="./registrarse.html">Registrarse </a>
+                </li>
+                <li>
+                    <a href=""> Iniciar Sesion</a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section id="IniciarSesion">
+            <h1 class="iniciar-sesion">Iniciar Sesión</h1>
+            <form class= "login-form-sesion" id="loginForm"  action="" method="post">
+                <div class="email-sesion">
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <div id="emailError" class="error-message"></div>
+                </div>
+                <div class="password-sesion">
+                    <input type="password" id="password" name="password" placeholder="Contraseña">
+                    <div id="passwordError" class="error-message"></div>
+                </div>
+
+                
+                <div class="enviar-sesion">
+                    <input type="submit" value="Iniciar Sesion">   
+                </div>
+                
+                <a class="registro-inicio"  href="./registrarse.html">Registrarse</a>
+            </form>
+            
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
